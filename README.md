@@ -15,30 +15,21 @@ Key Features:
 
 + 🔄 Model Persistence - Automatic checkpoint saving and model reload capabilities
 
-Technical Components
-Custom Trading Environment (TradingEnv)
+Technical Components:
+1. Custom Trading Environment (TradingEnv)
+   - Action space: Hold/Buy/Sell
+   - Observation space: 12 normalized technical indicators
+   - Profit-based reward system
 
-Action space: Hold/Buy/Sell
+2. Neural Network Architecture
+  - 3-layer fully connected network (128-128 nodes)
+  - Experience replay buffer (10,000 memory capacity)
+  - Epsilon-greedy exploration strategy
 
-Observation space: 12 normalized technical indicators
-
-Profit-based reward system
-
-Neural Network Architecture
-
-3-layer fully connected network (128-128 nodes)
-
-Experience replay buffer (10,000 memory capacity)
-
-Epsilon-greedy exploration strategy
-
-Training Infrastructure
-
-Periodic model checkpointing
-
-Target network synchronization
-
-Automatic GPU utilization
+3. Training Infrastructure
+  - Periodic model checkpointing
+  - Target network synchronization
+  - Automatic GPU utilization
 
 
 ## Configure with your Binance API keys
