@@ -33,32 +33,33 @@ Technical Components:
 
 
 ## Configure with your Binance API keys
-'''
+```
 api_key = 'your_api_key_here'
 api_secret = 'your_api_secret_here'
-'''
+```
+
 
 ## Train the model
-'''
+```
 python trading_bot.py
-'''
-Requirements
+```
+
+### Requirements
 Python 3.8+
-
 Binance account (for API access)
-
 PyTorch 1.12+
+pandas, 
+NumPy==1.20, 
+TA-Lib,
+gym, 
+matplotlib
 
-pandas, NumPy, TA-Lib
-
-gym, matplotlib
-
-Customization Options
+### Customization Options
 Trading Pair: Modify FETUSDT to any Binance symbol
 
 Timeframe: Adjust KLINE_INTERVAL_1HOUR to different intervals
 
-Training Parameters:
+### Training Parameters:
 
 Modify n_episodes for training duration
 
