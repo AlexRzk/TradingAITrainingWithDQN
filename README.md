@@ -22,9 +22,9 @@ Technical Components:
    - Profit-based reward system
 
 2. Neural Network Architecture
-  - 3-layer fully connected network (128-128 nodes)
-  - Experience replay buffer (10,000 memory capacity)
-  - Epsilon-greedy exploration strategy
+      - 3-layer fully connected network (128-128 nodes)
+     - Experience replay buffer (10,000 memory capacity)
+     - Epsilon-greedy exploration strategy
 
 3. Training Infrastructure
   - Periodic model checkpointing
