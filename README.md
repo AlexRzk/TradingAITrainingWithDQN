@@ -1,3 +1,5 @@
+# Deep Q-Learning Trading Bot with Binance Integration
+
 A reinforcement learning-powered cryptocurrency trading system that leverages Deep Q-Networks (DQN) to learn optimal trading strategies using historical market data from Binance.
 
 Key Features
