@@ -27,9 +27,9 @@ Technical Components:
      - Epsilon-greedy exploration strategy
 
 3. Training Infrastructure
-  - Periodic model checkpointing
-  - Target network synchronization
-  - Automatic GPU utilization
+     - Periodic model checkpointing
+     - Target network synchronization
+     - Automatic GPU utilization
 
 
 ## Configure with your Binance API keys
