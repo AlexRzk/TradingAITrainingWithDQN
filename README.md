@@ -2,18 +2,18 @@
 
 A reinforcement learning-powered cryptocurrency trading system that leverages Deep Q-Networks (DQN) to learn optimal trading strategies using historical market data from Binance.
 
-Key Features
-🧠 Deep Reinforcement Learning - Implements DQN with experience replay and target network stabilization
+Key Features:
++ 🧠 Deep Reinforcement Learning - Implements DQN with experience replay and target network stabilization
 
-📈 Technical Analysis Integration - Utilizes 12 technical indicators (RSI, MACD, Bollinger Bands, etc.)
++ 📈 Technical Analysis Integration - Utilizes 12 technical indicators (RSI, MACD, Bollinger Bands, etc.)
 
-💹 Binance API Integration - Fetches real historical market data (supports any Binance trading pair)
++ 💹 Binance API Integration - Fetches real historical market data (supports any Binance trading pair)
 
-🚀 GPU Acceleration - PyTorch implementation with CUDA support for faster training
++ 🚀 GPU Acceleration - PyTorch implementation with CUDA support for faster training
 
-💰 Virtual Trading Environment - Custom Gym environment with balance tracking and position management
++ 💰 Virtual Trading Environment - Custom Gym environment with balance tracking and position management
 
-🔄 Model Persistence - Automatic checkpoint saving and model reload capabilities
++ 🔄 Model Persistence - Automatic checkpoint saving and model reload capabilities
 
 Technical Components
 Custom Trading Environment (TradingEnv)
@@ -40,15 +40,17 @@ Target network synchronization
 
 Automatic GPU utilization
 
-Usage
-python
-Copy
-# Configure with your Binance API keys
+
+## Configure with your Binance API keys
+'''
 api_key = 'your_api_key_here'
 api_secret = 'your_api_secret_here'
+'''
 
-# Train the model
+## Train the model
+'''
 python trading_bot.py
+'''
 Requirements
 Python 3.8+
 
