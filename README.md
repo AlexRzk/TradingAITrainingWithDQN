@@ -41,18 +41,11 @@ api_secret = 'your_api_secret_here'
 
 ## Train the model
 ```
-python trading_bot.py
+python Training.py
 ```
 
 ### Requirements
-Python 3.8+
-Binance account (for API access)
-PyTorch 1.12+
-pandas, 
-NumPy==1.20, 
-TA-Lib,
-gym, 
-matplotlib
+
 
 ### Customization Options
 Trading Pair: Modify FETUSDT to any Binance symbol
