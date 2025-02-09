@@ -66,3 +66,6 @@ Modify n_episodes for training duration
 Adjust network architecture in DQNetwork
 
 Tune hyperparameters (learning rate, gamma, epsilon decay)
+
+> [!WARNING]
+> This is experimental software for educational purposes only. Never use real funds with unverified trading algorithms. Past performance does not guarantee future results.
