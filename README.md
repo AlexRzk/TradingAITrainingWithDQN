@@ -45,13 +45,15 @@ python Training.py
 ```
 
 ### Requirements
-gym==0.21.0
-numpy==1.20.0
-pandas==1.4.4
-ta==0.10.2
-torch==2.0.1+cu117
-matplotlib==3.5.2
+```
+gym==0.21.0  
+numpy==1.20.0  
+pandas==1.4.4  
+ta==0.10.2  
+torch==2.0.1+cu117  
+matplotlib==3.5.2  
 python-binance==1.0.16
+```  
 
 ### Customization Options
 Trading Pair: Modify FETUSDT to any Binance symbol
